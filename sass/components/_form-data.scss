@@ -110,7 +110,7 @@
     min-width: 200px;
     border: none;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     
     color: $primery-white-color;
     background-color: $accent-color;
@@ -121,5 +121,5 @@
     letter-spacing: 0.06em;
     cursor: pointer;
 
-    transition: background-color 250ms var(--timing-function);
+    transition: background-color $duration $timing-function;
 }
